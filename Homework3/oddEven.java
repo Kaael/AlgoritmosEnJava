@@ -11,14 +11,12 @@ Dado un numero 'n' identifique si es par o impar
 public class oddEven {   
 
    public static void main(String[] args) {
-      
-      	System.out.println(args[0]);
-
-   		// si el numero es impar
-   			System.out.println("numero es impar");
-
-   		// si el numero es par
-   			System.out.println("numero es par");
-
+		int n=Integer.parseInt(args[0].toString());
+		System.out.println("El numero es: "+ args[0]);
+		if (n%2!=0){
+   			System.out.println("El numero es impar");
+		 }else{
+   			System.out.println("El numero es par");
+			}
+		}	
    }
-}
